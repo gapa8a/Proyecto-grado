@@ -4,6 +4,7 @@
   "description": "Proyecto de grado enfocada en un mooc para los profesores de la universidad libre",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gapa8a/Proyecto-grado/issues"
   },
-  "homepage": "https://github.com/gapa8a/Proyecto-grado#readme"
+  "homepage": "https://github.com/gapa8a/Proyecto-grado#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
