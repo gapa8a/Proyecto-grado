@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-grado",
+  "version": "1.0.0",
+  "description": "Proyecto de grado enfocada en un mooc para los profesores de la universidad libre",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gapa8a/Proyecto-grado.git"
+  },
+  "author": "Germán y Laura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gapa8a/Proyecto-grado/issues"
+  },
+  "homepage": "https://github.com/gapa8a/Proyecto-grado#readme"
+}
