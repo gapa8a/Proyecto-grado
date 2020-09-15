@@ -8,10 +8,40 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
 
-    <title>Hello, world!</title>
+    <title>Inicio</title>
   </head>
   <body>
     <h1>Hello, world!</h1>
+    <div class="jumbotron "> <!-- jumbotron jumbotron-fluid -->
+      <img class="card-img-banner img-fluid " src="images/banner.png" alt="Banner imagen" >      
+
+      <h1 class="display-4">¡Bienvenido, a un mooc!</h1>
+      <p class="lead">Este sitio permitira crear tus espacios virtuales para tus estudiantes.</p>
+     <!-- This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information. -->
+      <hr class="my-4">
+    
+      <p>A continuación puede empezar a crear un curso dentro del espacio virtual que se presenta dentro de este MOOC.</p>
+      <p class="lead">
+        <a class="btn btn-primary" href="#" role="button"><span class="oi oi-plus" style="color:black"></span> Crear un Curso</a>
+      </p>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <!-- se coloca elementos de barra de navegación oscura , y la barra queda fija respecto al desplazamiento vertical de la página web
+      navbar-expand permite definir en un tamaño medio que la barra se expanda -->
+        <a class="navbar-brand" href="#">MOOC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+          <ul class ="navbar-nav mr-auto"> 
+          <li class ="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
+          <li class ="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+          <li class ="nav-item"><a class="nav-link" href="./prices.html">Precios</a></li>
+          <li class ="nav-item"><a class="nav-link" href="./terms.html">Terminos y Condiciones</a></li>
+          <li class ="nav-item"><a class="nav-link" href="./contact.html">Contacto</a></li>
+        </ul>
+        </div>
+      
+      </nav>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
