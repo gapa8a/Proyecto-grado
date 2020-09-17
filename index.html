@@ -7,23 +7,28 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 
     <title>Inicio</title>
   </head>
   <body>
     <h1>Hello, world!</h1>
     <div class="jumbotron "> <!-- jumbotron jumbotron-fluid -->
-      <img class="card-img-banner img-fluid " src="images/banner.png" alt="Banner imagen" >      
+      <img class="card-img-banner img-fluid " src="images/logo.png" alt="Logo de la universidad Libre" >      
 
-      <h1 class="display-4">¡Bienvenido, a un mooc!</h1>
-      <p class="lead">Este sitio permitira crear tus espacios virtuales para tus estudiantes.</p>
+      <h1 class="display-4">¡Bienvenido, a la plataforma de cursos personalizados para la Universidad Libre!</h1>
+      <p class="lead">En este sitio web podrás encontrar cursos libres realizados por los profesores de diferentes áreas del conocimiento.</p>
      <!-- This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information. -->
       <hr class="my-4">
     
-      <p>A continuación puede empezar a crear un curso dentro del espacio virtual que se presenta dentro de este MOOC.</p>
+      <p>A continuación, inicia sesión para ingresar a los cursos ofertados.</p>
       <p class="lead">
-        <a class="btn btn-primary" href="#" role="button"><span class="oi oi-plus" style="color:black"></span> Crear un Curso</a>
+        <a class="btn btn-primary" href="#" role="button"><span class="oi oi-plus" style="color:black"></span>Iniciar Sesión</a>
       </p>
+
+        
+
     </div>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <!-- se coloca elementos de barra de navegación oscura , y la barra queda fija respecto al desplazamiento vertical de la página web
       navbar-expand permite definir en un tamaño medio que la barra se expanda -->
@@ -33,18 +38,39 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
           <ul class ="navbar-nav mr-auto"> 
-          <li class ="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
-          <li class ="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
-          <li class ="nav-item"><a class="nav-link" href="./prices.html">Precios</a></li>
-          <li class ="nav-item"><a class="nav-link" href="./terms.html">Terminos y Condiciones</a></li>
-          <li class ="nav-item"><a class="nav-link" href="./contact.html">Contacto</a></li>
+           <!-- <li class ="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
+          <li class ="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>  -->
+         
         </ul>
+        <button type="button" class="btn btn-primary btn-login">Iniciar Sesión</button>
         </div>
       
       </nav>
-
+        
+        <footer>
+          <div class="row">
+            <div class= "col-sm-6 d-flex flex-column">
+              <h3>Redes Sociales</h3>
+            <p><span class="fa fa-facebook footer-address-icon"></span><a class="link" href="htttp://wwww.facebook.com"> Facebook</a></p>
+              <p><span class= "fa fa-twitter footer-address-icon"></span><a class="link" href="htttp://wwww.twitter.com"> Twitter</a></p>
+                <p><span class="fa fa-instagram footer-address-icon"></span><a  class="link" href="htttp://wwww.instagram.com"> Instagram</a></p>
+              </div>
+        
+          <div class= "col-sm-6">
+            <address>
+              <h3>Nosotros</h3>
+                <p><span class="oi oi-inbox footer-address-icon"></span> Copyright 2020</p>
+                <p><span class="oi oi-home footer-address-icon"></span> Bogotá, Colombia - U.Libre-sede Bosque Popular</p> 
+                <p><span class="oi oi-phone footer-address-icon"></span> +57 3821000</p>  
+                </address>
+              </div>
+        
+          
+            </div>
+          </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="node_modules/jquery/dist/jquery.min.js" ></script>
     <script src="node_modules/popper.js/dist/popper.min.js" ></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

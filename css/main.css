@@ -1,0 +1,16 @@
+.btn-login{
+    color:white;
+}
+footer{
+    padding: 10px 20px 0 20px;
+    background-color: #F44336;
+    align-items: flex-end;
+    margin-bottom: 0px;
+    margin-top: 10p;
+}
+.link{
+    color: black;
+}
+address{
+    text-align: end;
+}
