@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <title>Iniciar Sesión</title>
   </head>
@@ -18,31 +21,46 @@
 
       <h2><p class="lead"><h2>Iniciar Sesión</h2></p>
       <hr class="my-4">
-      <form >
-        <div class="form-group">
-          <!-- <label for="exampleInputEmail1">Correo Electronico</label> -->
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electronico">
-          <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-        </div>
-        <div class="form-group">
-          <!-- <label for="exampleInputPassword1">Contraseña</label> -->
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
-        </div>
-        <!-- <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div> -->
-        <div class="botonesLogin">
-        <button type="submit" class="btn btn-primary">Ingresar</button>
-        <p><a class="link" href="register.html"> ¿No tienes una cuenta? Crea una.</a></p>
-        <p><a class="link" href="forgot.html"> ¿No puedes acceder a tu cuenta?</a></p>
-        </div>
+      <form>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 "> 
+                <!-- <label for="exampleInputEmail1">Correo Electronico</label> -->
+                <div class="input-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Universitario">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+              <!-- </div>
+              <div class="form-group"> -->
+                <!-- <label for="exampleInputPassword1">Contraseña</label> -->
+              </div>               
+               <small class="form-text text-muted">Ingrese con su correo institucional.</small>
 
-      </form>
-        
+              <div class="input-group">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">       
 
+                <div class="input-group-append" >
+                  <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
+                 </div>
+              </div>
+              <small class="form-text text-muted">Click en el ojo para mostrar / ocultar</small>
+
+              <p>
+            
+                <div class="botonesLogin">
+                  <button type="submit" class="btn btn-primary">Ingresar</button>
+
+                 <p> 
+                  <p><a class="link" href="register.html"> ¿No tienes una cuenta? Crea una.</a></p>
+                  <p><a class="link" href="forgot.html"> ¿No puedes acceder a tu cuenta?</a></p>
+              </div>
+
+            
+         </div>
+       </div>
     </div>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <!-- se coloca elementos de barra de navegación oscura , y la barra queda fija respecto al desplazamiento vertical de la página web
+    </form>
+    </div>
+    <nav class="navbar  navbar-expand-md navbar-dark bg-dark fixed-top "> <!-- se coloca elementos de barra de navegación oscura , y la barra queda fija respecto al desplazamiento vertical de la página web
       navbar-expand permite definir en un tamaño medio que la barra se expanda -->
         <a class="navbar-brand" href="index.html">MOOC</a>
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,33 +75,9 @@
         </div>
       
       </nav>
-      
-        <!-- <footer>
-          <div class="row">
-            <div class= "col-sm-6 d-flex flex-column">
-              <h3>Redes Sociales</h3>
-            <p><span class="fa fa-facebook footer-address-icon"></span><a class="link" href="htttp://wwww.facebook.com"> Facebook</a></p>
-              <p><span class= "fa fa-twitter footer-address-icon"></span><a class="link" href="htttp://wwww.twitter.com"> Twitter</a></p>
-                <p><span class="fa fa-instagram footer-address-icon"></span><a  class="link" href="htttp://wwww.instagram.com"> Instagram</a></p>
-              </div>
-        
-          <div class= "col-sm-6">
-            <address>
-              <h3>Nosotros</h3>
-                <p><span class="oi oi-inbox footer-address-icon"></span> Copyright © Universidad Libre 2020. Todos los derechos reservados.</p>
-                <p><span class="oi oi-home footer-address-icon"></span> Bogotá, Colombia - U.Libre-sede Bosque Popular</p> 
-                <p><span class="oi oi-phone footer-address-icon"></span> +57 3821000</p>  
-                </address>
-              </div>
-        
-          
-            </div>
-          </footer> -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
     <script src="node_modules/jquery/dist/jquery.min.js" ></script>
     <script src="node_modules/popper.js/dist/popper.min.js" ></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="login.js"></script>
   </body>
 </html>
