@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Registro de Estudiante</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotronLogin "> <!-- jumbotron jumbotron-fluid -->
+      <img class="card-img-banner img-fluid " src="images/logo.png" alt="Logo de la universidad Libre" >      
+
+      <h2><p class="lead"><h2>Registro de Estudiantes</h2></p>
+      <hr class="my-4">
+      <form>
+              <div class="container">
+                  <div class="row justify-content-center"> 
+                      <div class="col-md-6 ">
+                            <div class="input-group">
+                              <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Nombres">
+                            </div>       
+                            <p></p>
+                            <div class="input-group">
+                              <input type="text" class="form-control" id="inputLastName" aria-describedby="lastnameHelp" placeholder="Apellidos">
+                            </div>
+                            <p></p>
+                            <div class="input-group">
+                            <input type="text" class="form-control" id="inputStudentCode" aria-describedby="studentCodeHelp" placeholder="Código de Estudiante">
+                            </div>
+                            <p></p>
+                            <div class="input-group">
+                              <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Correo Universitario">
+                            </div>  
+                            <p></p>
+                            <div class="input-group">
+                              <input type="text" class="form-control" id="inputFaculty" aria-describedby="facultyHelp" placeholder="Facultad">
+                            </div>  
+                            <p></p>
+                            <div class="input-group">
+                              <input type="text" class="form-control" id="inputProgram" aria-describedby="programHelp" placeholder="Programa">
+                            </div>  
+                            <p></p>
+                            <div class="input-group">
+                              <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">       
+              
+                              <div class="input-group-append" >
+                                <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
+                              </div>
+                            </div>
+                            <small class="form-text text-muted">Click en el ojo para mostrar / ocultar</small>
+              
+                            <div class="botonesLogin">
+                                <button type="submit" class="btn btn-primary">Registrar</button>
+                            </div>
+                          
+                        </div>
+                      
+                  </div>
+              </div>
+          
+
+              <!-- <div class="form-group">
+                  <input type="password" class="form-control" id="inputPass" placeholder="Contraseña">
+                  <small id="emailHelp" class="form-text text-muted">Su contraseña debe tener mas de 6 caracteres, contar con caracteres especiales(!,#,%,&,etc.) y una letra mayuscula.</small>
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="inputPass2" placeholder="Confirme su Contraseña">
+              </div>
+            
+              <div class="botonesLogin">
+              <button type="submit" class="btn btn-primary">Recuperar</button>
+              </div> -->
+
+
+        
+      </form>
+        
+    </div>
+      
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <!-- se coloca elementos de barra de navegación oscura , y la barra queda fija respecto al desplazamiento vertical de la página web
+      navbar-expand permite definir en un tamaño medio que la barra se expanda -->
+        <a class="navbar-brand" href="index.html">MOOC</a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+          <ul class ="navbar-nav mr-auto"> 
+           <!-- <li class ="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
+          <li class ="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>  -->
+         
+        </ul>
+        </div>
+      
+      </nav>
+      
+    <script src="node_modules/jquery/dist/jquery.min.js" ></script>
+    <script src="node_modules/popper.js/dist/popper.min.js" ></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="forgot.js"></script>
+
+  </body>
+</html>
